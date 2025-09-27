@@ -1,5 +1,4 @@
 import './globals.css'
-import '../styles/layout.css'
 
 export const metadata = {
   title: 'Precision Advertising',

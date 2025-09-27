@@ -1,7 +1,10 @@
 // frontend/src/components/MenuTabs.tsx
-import './layout.css'
 
-type Tab = { label: string; href: string; description: string }
+type Tab = {
+  label: string
+  href: string
+  description: string
+}
 
 const tabs: Tab[] = [
   {
