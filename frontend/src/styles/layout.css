@@ -24,3 +24,31 @@
   border-radius: 6px;
   margin-bottom: 1.5rem;
 }
+
+/* Position each menu item so its tooltip can be absolutely placed */
+.menu-item {
+  position: relative;
+}
+
+/* Hide the tooltip by default */
+.tooltip {
+  position: absolute;
+  bottom: -2.5rem;           /* sit below the menu item */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 10;
+}
+
+/* Reveal the tooltip on hover */
+.menu-item:hover .tooltip {
+  opacity: 1;
+}
