@@ -1,0 +1,26 @@
+.header, .footer {
+  background: #0A2540;
+  color: white;
+  padding: 1rem 2rem;
+}
+.nav-links a {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+.main {
+  padding: 2rem;
+}
+.button {
+  background: #FF6F61;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+}
